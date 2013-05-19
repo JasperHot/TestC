@@ -13,6 +13,8 @@
 
 int main(void) {
 	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	pinrtf("test second");
+    printf("test second");
+
+	printf("test 4th");
 	return EXIT_SUCCESS;
 }
