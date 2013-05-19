@@ -15,6 +15,6 @@ int main(void) {
 	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
 	LOG("test second\n");
 	LOG("test third\n");
-
+        LOG("test fourth");
 	return EXIT_SUCCESS;
 }
