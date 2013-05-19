@@ -16,5 +16,6 @@ int main(void) {
     printf("test second");
 
 	printf("test 4th");
+	LOG("T");
 	return EXIT_SUCCESS;
 }
