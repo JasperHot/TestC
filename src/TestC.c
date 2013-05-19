@@ -13,8 +13,8 @@
 
 int main(void) {
 	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	LOG("test second");
-	LOG("test third");
+	LOG("test second\n");
+	LOG("test third\n");
 
 	return EXIT_SUCCESS;
 }
