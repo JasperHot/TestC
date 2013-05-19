@@ -20,5 +20,6 @@ int main(void) {
 	LOG("test sixth");
 	LOG("test seventh");
 	LOG("test eighth");
+	LOG("test nineth");
 	return EXIT_SUCCESS;
 }
