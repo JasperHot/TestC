@@ -22,5 +22,6 @@ int main(void) {
 	LOG("test eighth");
 	LOG("test nineth");
 	LOG("test tenth");
+	LOG("test eleventh");
 	return EXIT_SUCCESS;
 }
