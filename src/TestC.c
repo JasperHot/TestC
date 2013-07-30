@@ -22,6 +22,14 @@ int main(void) {
 	LOG("test eighth");
 	LOG("test nineth");
 	LOG("test tenth");
-	LOG("test eleventh");
+	LOG("test eleventh\n");
+	int i=0;
+	for(i=0;i<3;i++){
+		printf("outer %d\n",i);
+		int i;
+		for(i=0;i<5;i++){
+			printf("inner %d\n",i);
+		}
+	}
 	return EXIT_SUCCESS;
 }
